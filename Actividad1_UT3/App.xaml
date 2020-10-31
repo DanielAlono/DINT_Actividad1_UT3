@@ -4,6 +4,23 @@
              xmlns:local="clr-namespace:Actividad1_UT3"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Width"
+                    Value="100" />
+            <Setter Property="Margin"
+                    Value="10" />
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin"
+                    Value="5,0,5,15" />
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize"
+                    Value="16" />
+            <Setter Property="FontWeight"
+                    Value="Bold" />
+            <Setter Property="Margin"
+                    Value="5" />
+        </Style>
     </Application.Resources>
 </Application>
